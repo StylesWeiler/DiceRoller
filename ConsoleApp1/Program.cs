@@ -5,8 +5,8 @@ class DiceSimulator
     static void Main()
     {
         Random randomNum = new Random(); // random number generated
-        int[] rollCount = new int[13]; // holds the sum of the two dice rolled 
-        int totalRolls; // counts the number of times a dice is rolled
+        long[] rollCount = new long[13]; // holds the sum of the two dice rolled 
+        long totalRolls; // counts the number of times a dice is rolled
 
         // write the opening lines and ask for number of rolls from user
         Console.Write("Welcome to the dice throwing simulator!");
